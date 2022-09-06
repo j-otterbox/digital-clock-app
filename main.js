@@ -101,7 +101,7 @@ const clockModule = (() => {
   return { start };
 })();
 
-dateUtil = (() => {
+const dateUtil = (() => {
   function getDayLong(dayInt) {
     switch (dayInt) {
       case 0:
